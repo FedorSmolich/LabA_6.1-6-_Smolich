@@ -8,9 +8,10 @@ private:
     string clothing_color;
     string name;
 public:
+    Player();
     Player(string clothing_color, string name, int X, int Y);
     ~Player();
-    void set_new_clothes(int new_clothing_color);
+    void set_new_clothes(string new_clothing_color);
     string get_clothing_color();
     void set_name(string new_name);
     string get_name();

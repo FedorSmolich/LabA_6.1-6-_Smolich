@@ -7,6 +7,7 @@ protected:
     int X;
     int Y;
 public:
+    Object();
     Object(int X, int Y);
     ~Object();
     void set_cordx(int iX);

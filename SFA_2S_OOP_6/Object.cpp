@@ -5,6 +5,11 @@
 #include "Trader.h"
 #include "Stone.h"
 using namespace std;
+Object::Object()
+{
+    X = 0;
+    Y = 0;
+}
 Object::Object(int X, int Y)
 {
     this->X = X;
@@ -21,17 +26,15 @@ void Object::set_cordy(int iY)
 }
 int Object::get_cordx()
 {
-    cout << "Координатa X: " << X << endl;
     return X;
 }
 int Object::get_cordy()
 {
-    cout << "Координатa Y: " << Y << endl;
     return Y;
 }
 void Object::all_characteristics()
 {
-    get_cordx();
-    get_cordy();
+    cout << "Координатa X: " << X << endl;
+    cout << "Координатa Y: " << Y << endl;
 }
    

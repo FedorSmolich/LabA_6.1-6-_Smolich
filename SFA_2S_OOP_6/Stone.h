@@ -7,6 +7,7 @@ class Stone : public Object
 private:
     int picture_id;
 public:
+    Stone();
     Stone(int picture_id, int X, int Y);
     ~Stone();
     void set_new_picture_id(int new_picture_id);

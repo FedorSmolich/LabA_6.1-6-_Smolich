@@ -12,6 +12,7 @@ int main()
     player.all_characteristics();
     player.set_cordx(2);
     player.set_cordx(3);
+    player.set_new_clothes("Purple");
     player.all_characteristics();
     cout << "------------------------------------" << endl;
     Stone stone(73, 6, 5);

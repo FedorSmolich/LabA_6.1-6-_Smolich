@@ -8,6 +8,7 @@ private:
     int product_id;
     int numb_sold_prod;
 public:
+    Trader();
     Trader(int product_id, int numb_sold_prod, int X, int Y);
     void set_product_id(int iproduct_id);
     void set_numb_sold_prod(int inumber_sold_prod);
