@@ -24,7 +24,7 @@ int Stone::get_picture_id()
     cout << "Код камня с фотографией: " << picture_id << endl;
     return picture_id;
 }
-void Stone::all_characteristics()
+void Stone::all_characteristics() const
 {
     cout << "Координатa X: " << X << endl;
     cout << "Координатa Y: " << Y << endl;

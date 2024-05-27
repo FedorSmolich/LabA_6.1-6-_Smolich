@@ -11,5 +11,5 @@ public:
     ~Stone();
     void set_new_picture_id(int new_picture_id);
     int get_picture_id();
-    void all_characteristics();
+    void all_characteristics() const;
 };

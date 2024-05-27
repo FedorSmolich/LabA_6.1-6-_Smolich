@@ -13,5 +13,5 @@ public:
     void set_cordy(int iY);
     int get_cordx();
     int get_cordy();
-    void all_characteristics();
+    virtual void all_characteristics();
 };
