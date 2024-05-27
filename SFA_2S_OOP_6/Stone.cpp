@@ -4,7 +4,7 @@
 using namespace std;
 Stone::Stone() : Object()
 {
-    picture_id = 0;
+    picture_id = 1;
 }
 Stone::Stone(int picture_id, int X, int Y) : Object(X, Y)
 {
